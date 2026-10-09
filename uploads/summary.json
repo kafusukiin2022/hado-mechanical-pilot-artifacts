@@ -1,0 +1,26 @@
+[
+  {
+    "model": "大容量 position-flow（1.77M 参数）",
+    "source_npz": "/home/lijingjing/lijj/users/lht2/deeporigami/agent/flowmatching/artifacts/figures/FAM024_large_20k_1p77m.npz",
+    "centered_rmsd_final": 15.795488294241235,
+    "median_point_error": 25.396499977540977,
+    "p99_point_error": 52.05236656115313,
+    "max_point_error": 59.94969329601521
+  },
+  {
+    "model": "低秩 latent autoregressive baseline（2.36M 参数）",
+    "source_npz": "/home/lijingjing/lijj/users/lht2/deeporigami/agent/flowmatching/artifacts/figures/FAM024_latent_2p36m_20k_rollout.npz",
+    "centered_rmsd_final": 0.3300527504827356,
+    "median_point_error": 0.4653187549119221,
+    "p99_point_error": 1.3662408651440299,
+    "max_point_error": 4.052262706051538
+  },
+  {
+    "model": "严格时间外推模型（80/20 chronological split）",
+    "source_npz": "/home/lijingjing/lijj/users/lht2/deeporigami/agent/flowmatching/artifacts/figures/FAM024_extrap80_strict_rollout.npz",
+    "centered_rmsd_final": 8.060811137925366,
+    "median_point_error": 12.05225032248793,
+    "p99_point_error": 24.782952812142018,
+    "max_point_error": 32.08276408381002
+  }
+]
