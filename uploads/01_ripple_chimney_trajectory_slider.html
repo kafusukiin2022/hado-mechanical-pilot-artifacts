@@ -28,7 +28,7 @@ const clipPlane=new THREE.Plane(new THREE.Vector3(-1,0,0),0);
 DATA.forEach((d,i)=>{const b=document.createElement('button');b.className='item';b.innerHTML=`${String(i+1).padStart(2,'0')} &nbsp; ${d.name}<small>${d.en}</small>`;b.onclick=()=>{selected=i;build()};$('designs').appendChild(b)});
 function geometry(positions,colors){const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(positions,3));if(colors)g.setAttribute('color',new THREE.Float32BufferAttribute(colors,3));return g}
 function add(obj){group.add(obj);objects.push(obj)}
-function build(){const d=DATA[selected];$('frame').max=d.frames.length-1;objects.forEach(o=>{group.remove(o);o.geometry.dispose();o.material.dispose()});objects=[];
+function build(){$('frame').max=DATA[selected].frames.length-1;objects.forEach(o=>{group.remove(o);o.geometry.dispose();o.material.dispose()});objects=[];
 const d=DATA[selected],fi=Math.max(0,Math.min(d.frames.length-1,Number($('frame').value)||0)),p=d.frames[fi].map(v=>v/d.scale),mode=$('mode').value,byModule=$('color').value==='module';$('frameLabel').textContent=`${(d.frameSteps[fi]/1000000).toFixed(1)}M steps`;const cols=[];
 for(let i=0;i<d.n;i++){let c=byModule?new THREE.Color().setHSL(d.module[i]/Math.max(d.rings,1),.58,.48):new THREE.Color(d.scaf[i]?0x2478be:0xdb9540);cols.push(c.r,c.g,c.b)}
 const clipping=clipped?[clipPlane]:[];
