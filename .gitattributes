@@ -1,1 +1,2 @@
 uploads/stable_10_full_trajectories.html filter=lfs diff=lfs merge=lfs -text
+uploads/Nature_candidate_submission_support.zip filter=lfs diff=lfs merge=lfs -text
