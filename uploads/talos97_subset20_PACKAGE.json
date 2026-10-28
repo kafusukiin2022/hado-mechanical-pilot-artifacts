@@ -1,0 +1,35 @@
+{
+  "archive": "talos97_subset20_20261028.zip",
+  "bytes": 61358389,
+  "sha256": "e590f93eb880186de84d967285e351d0d82e6e43450164da320a03efdd5a0e96",
+  "designs": 20,
+  "selection": {
+    "train": [
+      "6hb_001",
+      "6hb_008",
+      "6hb_018",
+      "6hb_028",
+      "6hb_037",
+      "6hb_045",
+      "6hb_056",
+      "6hb_063",
+      "6hb_073",
+      "6hb_082",
+      "6hb_090",
+      "6hb_099"
+    ],
+    "validation": [
+      "6hb_002",
+      "6hb_026",
+      "6hb_062",
+      "6hb_093"
+    ],
+    "test": [
+      "6hb_014",
+      "6hb_034",
+      "6hb_070",
+      "6hb_100"
+    ]
+  },
+  "verified": "140 original source SHA256 checks and144ZIP entry CRCs; archive below100000000bytes"
+}
