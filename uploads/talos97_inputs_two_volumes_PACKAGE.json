@@ -1,0 +1,17 @@
+{
+  "archive": "talos97_inputs_97designs_20261029.zip",
+  "bytes": 185077825,
+  "sha256": "ee46eeb3801e6827b2e3499112aba24bdcc0b0a03d7860ea53e6c4ca686ed390",
+  "parts": [
+    {
+      "name": "talos97_inputs_97designs_20261029.zip.vol01",
+      "bytes": 92538913,
+      "sha256": "3dc3de08c037c0eec89cc5f3d3db4c1724dfc1346d2a70175fa97253ad65b75b"
+    },
+    {
+      "name": "talos97_inputs_97designs_20261029.zip.vol02",
+      "bytes": 92538912,
+      "sha256": "9044171cd0fe78d541012d387aec42b8890b776d02df18cdbfc6f3e48dcf7089"
+    }
+  ]
+}
