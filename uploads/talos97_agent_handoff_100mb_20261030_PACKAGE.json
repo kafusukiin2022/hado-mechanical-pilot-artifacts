@@ -1,0 +1,367 @@
+{
+  "archive": "talos97_agent_handoff_100mb_20261030.zip",
+  "bytes": 83874752,
+  "sha256": "15283984c0ecd4e6cca684ceaee688b53edc234a5bc826dedbe2f2839000de93",
+  "file_count": 217,
+  "designs": 14,
+  "train": 8,
+  "validation": 6,
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "verification": {
+    "passed": true,
+    "hash_files_checked": 214,
+    "subset_designs": 14,
+    "seed_design_outputs": 42,
+    "records": [
+      {
+        "seed": 11,
+        "design": "6hb_001",
+        "split": "train",
+        "base_rmsd_nm": 4.004950191526437,
+        "rigid_rmsd_nm": 3.890298233858249,
+        "hybrid_rmsd_nm": 3.896514765867578
+      },
+      {
+        "seed": 11,
+        "design": "6hb_013",
+        "split": "train",
+        "base_rmsd_nm": 2.2406951721844877,
+        "rigid_rmsd_nm": 2.110252026255753,
+        "hybrid_rmsd_nm": 2.1261888328939023
+      },
+      {
+        "seed": 11,
+        "design": "6hb_029",
+        "split": "train",
+        "base_rmsd_nm": 2.856936381762097,
+        "rigid_rmsd_nm": 2.7508095845635516,
+        "hybrid_rmsd_nm": 2.7613568685406995
+      },
+      {
+        "seed": 11,
+        "design": "6hb_044",
+        "split": "train",
+        "base_rmsd_nm": 2.9184159079048846,
+        "rigid_rmsd_nm": 2.8781827321466236,
+        "hybrid_rmsd_nm": 2.887476141067334
+      },
+      {
+        "seed": 11,
+        "design": "6hb_057",
+        "split": "train",
+        "base_rmsd_nm": 1.8326598317466705,
+        "rigid_rmsd_nm": 1.7508740110982912,
+        "hybrid_rmsd_nm": 1.7664073024932698
+      },
+      {
+        "seed": 11,
+        "design": "6hb_071",
+        "split": "train",
+        "base_rmsd_nm": 2.185675534619119,
+        "rigid_rmsd_nm": 2.1430811526955296,
+        "hybrid_rmsd_nm": 2.1538601640448016
+      },
+      {
+        "seed": 11,
+        "design": "6hb_084",
+        "split": "train",
+        "base_rmsd_nm": 1.6338615705127488,
+        "rigid_rmsd_nm": 1.5502209650695338,
+        "hybrid_rmsd_nm": 1.575763624966575
+      },
+      {
+        "seed": 11,
+        "design": "6hb_099",
+        "split": "train",
+        "base_rmsd_nm": 1.9175004805794236,
+        "rigid_rmsd_nm": 1.8297528361634046,
+        "hybrid_rmsd_nm": 1.8673430071594286
+      },
+      {
+        "seed": 11,
+        "design": "6hb_002",
+        "split": "validation",
+        "base_rmsd_nm": 2.523350695299132,
+        "rigid_rmsd_nm": 2.4103027551035603,
+        "hybrid_rmsd_nm": 2.420978384196048
+      },
+      {
+        "seed": 11,
+        "design": "6hb_009",
+        "split": "validation",
+        "base_rmsd_nm": 2.127886431810443,
+        "rigid_rmsd_nm": 2.091008895264452,
+        "hybrid_rmsd_nm": 2.103856231510644
+      },
+      {
+        "seed": 11,
+        "design": "6hb_048",
+        "split": "validation",
+        "base_rmsd_nm": 2.4149454588448904,
+        "rigid_rmsd_nm": 2.407051810955982,
+        "hybrid_rmsd_nm": 2.4325443638242117
+      },
+      {
+        "seed": 11,
+        "design": "6hb_072",
+        "split": "validation",
+        "base_rmsd_nm": 2.8942246960880866,
+        "rigid_rmsd_nm": 2.8603128570224454,
+        "hybrid_rmsd_nm": 2.8701527001288487
+      },
+      {
+        "seed": 11,
+        "design": "6hb_088",
+        "split": "validation",
+        "base_rmsd_nm": 2.627603543096214,
+        "rigid_rmsd_nm": 2.5896818621328204,
+        "hybrid_rmsd_nm": 2.603613477654971
+      },
+      {
+        "seed": 11,
+        "design": "6hb_093",
+        "split": "validation",
+        "base_rmsd_nm": 2.0205230512004837,
+        "rigid_rmsd_nm": 2.0545319319116158,
+        "hybrid_rmsd_nm": 2.06880674180752
+      },
+      {
+        "seed": 22,
+        "design": "6hb_001",
+        "split": "train",
+        "base_rmsd_nm": 3.977192080621825,
+        "rigid_rmsd_nm": 3.80308476900397,
+        "hybrid_rmsd_nm": 3.818545164813381
+      },
+      {
+        "seed": 22,
+        "design": "6hb_013",
+        "split": "train",
+        "base_rmsd_nm": 2.2427903481148417,
+        "rigid_rmsd_nm": 2.209226317164269,
+        "hybrid_rmsd_nm": 2.227375479005395
+      },
+      {
+        "seed": 22,
+        "design": "6hb_029",
+        "split": "train",
+        "base_rmsd_nm": 2.784060458551191,
+        "rigid_rmsd_nm": 2.754627490679055,
+        "hybrid_rmsd_nm": 2.782069374892873
+      },
+      {
+        "seed": 22,
+        "design": "6hb_044",
+        "split": "train",
+        "base_rmsd_nm": 2.874426265788668,
+        "rigid_rmsd_nm": 2.9352700280650392,
+        "hybrid_rmsd_nm": 2.9592415099648215
+      },
+      {
+        "seed": 22,
+        "design": "6hb_057",
+        "split": "train",
+        "base_rmsd_nm": 1.829069236697707,
+        "rigid_rmsd_nm": 1.7694714619195893,
+        "hybrid_rmsd_nm": 1.7975446664073322
+      },
+      {
+        "seed": 22,
+        "design": "6hb_071",
+        "split": "train",
+        "base_rmsd_nm": 2.146804334583138,
+        "rigid_rmsd_nm": 2.1532497014149974,
+        "hybrid_rmsd_nm": 2.1776893207905905
+      },
+      {
+        "seed": 22,
+        "design": "6hb_084",
+        "split": "train",
+        "base_rmsd_nm": 1.621768123525314,
+        "rigid_rmsd_nm": 1.5659200582861843,
+        "hybrid_rmsd_nm": 1.5944111979607358
+      },
+      {
+        "seed": 22,
+        "design": "6hb_099",
+        "split": "train",
+        "base_rmsd_nm": 1.9384598725515438,
+        "rigid_rmsd_nm": 1.8694582673228133,
+        "hybrid_rmsd_nm": 1.933031964016292
+      },
+      {
+        "seed": 22,
+        "design": "6hb_002",
+        "split": "validation",
+        "base_rmsd_nm": 2.508773262173633,
+        "rigid_rmsd_nm": 2.418586227840114,
+        "hybrid_rmsd_nm": 2.4419645224299207
+      },
+      {
+        "seed": 22,
+        "design": "6hb_009",
+        "split": "validation",
+        "base_rmsd_nm": 2.119936131409222,
+        "rigid_rmsd_nm": 2.1013701512580365,
+        "hybrid_rmsd_nm": 2.116790143507227
+      },
+      {
+        "seed": 22,
+        "design": "6hb_048",
+        "split": "validation",
+        "base_rmsd_nm": 2.4185258848552107,
+        "rigid_rmsd_nm": 2.4316497222354623,
+        "hybrid_rmsd_nm": 2.489997285432781
+      },
+      {
+        "seed": 22,
+        "design": "6hb_072",
+        "split": "validation",
+        "base_rmsd_nm": 2.882948097489768,
+        "rigid_rmsd_nm": 2.9011442588736807,
+        "hybrid_rmsd_nm": 2.914954297278008
+      },
+      {
+        "seed": 22,
+        "design": "6hb_088",
+        "split": "validation",
+        "base_rmsd_nm": 2.6210744206503724,
+        "rigid_rmsd_nm": 2.6198789885346496,
+        "hybrid_rmsd_nm": 2.6371097653686975
+      },
+      {
+        "seed": 22,
+        "design": "6hb_093",
+        "split": "validation",
+        "base_rmsd_nm": 2.0323509935009545,
+        "rigid_rmsd_nm": 2.0297277820718675,
+        "hybrid_rmsd_nm": 2.050241731435662
+      },
+      {
+        "seed": 33,
+        "design": "6hb_001",
+        "split": "train",
+        "base_rmsd_nm": 3.959265499611067,
+        "rigid_rmsd_nm": 3.7430476955765832,
+        "hybrid_rmsd_nm": 3.7508803761448655
+      },
+      {
+        "seed": 33,
+        "design": "6hb_013",
+        "split": "train",
+        "base_rmsd_nm": 2.24709871238188,
+        "rigid_rmsd_nm": 2.1280000600539926,
+        "hybrid_rmsd_nm": 2.1468069704973516
+      },
+      {
+        "seed": 33,
+        "design": "6hb_029",
+        "split": "train",
+        "base_rmsd_nm": 2.7882682936069885,
+        "rigid_rmsd_nm": 2.676723599433669,
+        "hybrid_rmsd_nm": 2.6913875500693676
+      },
+      {
+        "seed": 33,
+        "design": "6hb_044",
+        "split": "train",
+        "base_rmsd_nm": 2.918408415906443,
+        "rigid_rmsd_nm": 2.833584788381868,
+        "hybrid_rmsd_nm": 2.8479787939341263
+      },
+      {
+        "seed": 33,
+        "design": "6hb_057",
+        "split": "train",
+        "base_rmsd_nm": 1.7956075674538905,
+        "rigid_rmsd_nm": 1.711207663930099,
+        "hybrid_rmsd_nm": 1.7300879887731158
+      },
+      {
+        "seed": 33,
+        "design": "6hb_071",
+        "split": "train",
+        "base_rmsd_nm": 2.1679898743460204,
+        "rigid_rmsd_nm": 2.1324461569247135,
+        "hybrid_rmsd_nm": 2.148587487078864
+      },
+      {
+        "seed": 33,
+        "design": "6hb_084",
+        "split": "train",
+        "base_rmsd_nm": 1.6398010576322888,
+        "rigid_rmsd_nm": 1.5618980756167378,
+        "hybrid_rmsd_nm": 1.5793847085041472
+      },
+      {
+        "seed": 33,
+        "design": "6hb_099",
+        "split": "train",
+        "base_rmsd_nm": 1.9174664779095738,
+        "rigid_rmsd_nm": 1.8103458819941898,
+        "hybrid_rmsd_nm": 1.8419868384090534
+      },
+      {
+        "seed": 33,
+        "design": "6hb_002",
+        "split": "validation",
+        "base_rmsd_nm": 2.5768578872157324,
+        "rigid_rmsd_nm": 2.428724377666255,
+        "hybrid_rmsd_nm": 2.445343769572262
+      },
+      {
+        "seed": 33,
+        "design": "6hb_009",
+        "split": "validation",
+        "base_rmsd_nm": 2.146501897585952,
+        "rigid_rmsd_nm": 2.0433421707169375,
+        "hybrid_rmsd_nm": 2.0571809320263035
+      },
+      {
+        "seed": 33,
+        "design": "6hb_048",
+        "split": "validation",
+        "base_rmsd_nm": 2.372926533238773,
+        "rigid_rmsd_nm": 2.3745116388192957,
+        "hybrid_rmsd_nm": 2.404082874763758
+      },
+      {
+        "seed": 33,
+        "design": "6hb_072",
+        "split": "validation",
+        "base_rmsd_nm": 2.9212463949308445,
+        "rigid_rmsd_nm": 2.8472278227661914,
+        "hybrid_rmsd_nm": 2.8573447157819847
+      },
+      {
+        "seed": 33,
+        "design": "6hb_088",
+        "split": "validation",
+        "base_rmsd_nm": 2.6353447917304744,
+        "rigid_rmsd_nm": 2.5825176698036194,
+        "hybrid_rmsd_nm": 2.5942794523280033
+      },
+      {
+        "seed": 33,
+        "design": "6hb_093",
+        "split": "validation",
+        "base_rmsd_nm": 2.0211066566404075,
+        "rigid_rmsd_nm": 2.081174791166853,
+        "hybrid_rmsd_nm": 2.094815610384744
+      }
+    ],
+    "max_prediction_coordinate_error_nm": 1.056616520678233e-05,
+    "max_endpoint_metric_error_nm": 1.0408985762211387e-07,
+    "test_data_used": false,
+    "training_performed": false,
+    "device": "cpu",
+    "torch_version": "2.14.1+cu130",
+    "numpy_version": "2.5.4",
+    "full68_14_reproduction": false
+  },
+  "omitted": "diagnostic caches, auxiliary experiment weights/NPZ, generated 3D HTML/VTP"
+}
