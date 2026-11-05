@@ -1,0 +1,8 @@
+{
+  "archive": "dna_cgdm_ddpm_source_20261105.zip",
+  "bytes": 1058798,
+  "sha256": "ea4e5259011eec8a51dfd725f6979ed0fbb17be244965c41938c0e1bb622351d",
+  "manifest_files": 364,
+  "uncompressed_bytes": 3789638,
+  "upstream_commit": "018ac033e32105010fe2265e0bdef56db5fa74bb"
+}
