@@ -1,0 +1,17 @@
+{
+  "design": "PT_d65ffb1d8d01ba8a",
+  "representation": "SNUPI base-pair centers; not oxDNA nucleotide rigid bodies",
+  "base_pair_centers_per_frame": 1435,
+  "helices": 24,
+  "initial": {
+    "path": "/home/lht/snupi_hado_singleton_PT_d65ffb1d8d01ba8a/OUTPUT/PT_d65ffb1d8d01ba8a_[261111_181630]/PT_d65ffb1d8d01ba8a_INIT_STRCT.pdb",
+    "sha256": "257fcd718c0c96b000c78644bff2e3af35327b9330d31ddbc8d45b2260d6dc8f"
+  },
+  "equilibrium": {
+    "path": "/home/lht/snupi_hado_singleton_PT_d65ffb1d8d01ba8a/OUTPUT/PT_d65ffb1d8d01ba8a_[261111_181630]/PT_d65ffb1d8d01ba8a_STT_STRCT.pdb",
+    "sha256": "7cb6b6da1494c683e188d12c0f30d7caa6e8c57672ee46fb495fab51b3e4aa5a"
+  },
+  "equilibrium_source": "SNUPI static solve, converged; not molecular dynamics",
+  "display_transform": "Each frame translated independently by its bounding-box center for display only. Coordinates otherwise preserved.",
+  "generation_script": "/home/lht/plot_snupi_pair_view.py"
+}

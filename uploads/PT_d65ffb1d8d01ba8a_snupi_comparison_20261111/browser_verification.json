@@ -1,0 +1,24 @@
+{
+  "url": "http://127.0.0.1:8765/PT_d65ffb1d8d01ba8a_initial_vs_snupi_equilibrium.html",
+  "viewport": "1800x1100",
+  "info": {
+    "panes": 2,
+    "canvases": [
+      [
+        899,
+        950
+      ],
+      [
+        899,
+        950
+      ]
+    ],
+    "helices": 24,
+    "labels": [
+      "初态 · SNUPI INIT_STRCT\nSNUPI base-pair centers",
+      "平衡态 · SNUPI STT_STRCT\nSNUPI base-pair centers"
+    ]
+  },
+  "page_errors": [],
+  "screenshot": "initial_vs_equilibrium_preview.png"
+}
