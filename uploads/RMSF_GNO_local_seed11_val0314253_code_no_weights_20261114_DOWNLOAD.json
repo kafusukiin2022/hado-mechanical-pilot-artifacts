@@ -1,0 +1,23 @@
+{
+  "archive": "RMSF_GNO_local_seed11_val0314253_code_no_weights_20261114.zip",
+  "bytes": 210013366,
+  "sha256": "e77b8f4f5cfa3caf976a1b84debf3a4dad1928731800cd1a17e056203af27df9",
+  "weights_included": false,
+  "parts": [
+    {
+      "name": "RMSF_GNO_local_seed11_val0314253_code_no_weights_20261114.zip.part001",
+      "bytes": 83886080,
+      "sha256": "22743220a7be3eb6441db28610a42c6111673133ec1157271b3ab56050bf553f"
+    },
+    {
+      "name": "RMSF_GNO_local_seed11_val0314253_code_no_weights_20261114.zip.part002",
+      "bytes": 83886080,
+      "sha256": "a8b31237f4cd2329ddf989e0a10bec8fdd2a9d8c3767855fc0db04b2cd8f6603"
+    },
+    {
+      "name": "RMSF_GNO_local_seed11_val0314253_code_no_weights_20261114.zip.part003",
+      "bytes": 42241206,
+      "sha256": "ef036c6a26e414ff00232143146d525112c75252eb10aa01a4eb97fbfc96afab"
+    }
+  ]
+}
